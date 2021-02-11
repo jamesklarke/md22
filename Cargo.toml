@@ -1,10 +1,11 @@
 [package]
 name = "md22"
 version = "0.1.0"
-authors = ["James Clarke <james.e.clarke@sheffield.ac.uk>"]
+authors = ["James Clarke <james.clarke@klarke.co.uk>"]
 edition = "2018"
+description = "An MD22 motor driver which uses I2C via embedded-hal."
+license = "MIT OR Apache-2.0"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 embedded-hal = "0.2.4"
